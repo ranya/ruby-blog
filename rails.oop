@@ -7,3 +7,6 @@ rails generate controller Articles
 rails generate model Article title:string text:text
 rails db:migrate
 rails db:migrate RAILS_ENV=production.
+
+rails generate model Comment commenter:string body:text article:references
+rails db:migrate
