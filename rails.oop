@@ -3,4 +3,7 @@ rails server
 
 rails generate controller Welcome index
 rails generate controller Articles
+
 rails generate model Article title:string text:text
+rails db:migrate
+rails db:migrate RAILS_ENV=production.
