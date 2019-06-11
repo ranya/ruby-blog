@@ -1,0 +1,2 @@
+# ruby-blog
+ruby exercise
