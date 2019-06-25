@@ -11,3 +11,7 @@ rails db:migrate RAILS_ENV=production.
 rails generate model Comment commenter:string body:text article:references
 rails db:migrate
 rails generate controller Comments
+
+rails middleware
+
+rails generate job guests_cleanup
